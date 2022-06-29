@@ -6,7 +6,7 @@ const API_URL = 'https://whispering-woodland-26878.herokuapp.com/api/'
 
 function App() {
   const [data, setData] = useState(null)
-  const [input, setInput] = useState('62bbb53de90fcf0c0ddbd936')
+  const [input, setInput] = useState('')
 
   const handleSubmit = async (e) => {
     e.preventDefault()
